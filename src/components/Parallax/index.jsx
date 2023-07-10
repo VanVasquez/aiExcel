@@ -1,10 +1,17 @@
-import { useEffect } from 'react';
+import { useEffect, useState} from 'react';
 import bg from '../../assets/bg.png';
 import fg from '../../assets/fg.png';
 import logo from '../../assets/logo.png';
 import './index.css'
+import { Button } from 'react-bootstrap';
+import Tools from '../Tools';
 
 const Parallax = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   useEffect(() => {
     const handleScroll = () => {
       const value = window.scrollY;
@@ -32,8 +39,9 @@ const Parallax = () => {
       <img src={bg} id="bg"/>
       <img src={logo} id="logo"/>
       <h1 className="text" id="pursuit">Excellence</h1>
-      <a href="#about" id="btn">Discover</a>
+      <Button onClick={handleShow} id="btn">EXPLORE</Button>
       <img src={fg} id="fg"/>
+      <Tools show={show} handleClose={handleClose}/>
     </div>
   )
 }

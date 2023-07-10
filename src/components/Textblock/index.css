@@ -1,8 +1,6 @@
 
 .content-container {
-  line-height: 4;
   position: relative;
-  padding: 20px;
   background-color: #1EBBD7;
 }
 
@@ -11,7 +9,6 @@
   margin: 0 auto;
   color: #fff;
   text-align: justify;
-  max-width: 100%;
 }
 
 .additional-content h2 {
@@ -22,7 +19,6 @@
 }
 
 .additional-content p {
-  padding: 5px 10em;
   text-align: justify;
   font-size: 24px;
   line-height: 1.5;
@@ -38,3 +34,4 @@
   margin-left: auto;
   margin-right: auto;
 }
+ 
