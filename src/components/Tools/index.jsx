@@ -223,8 +223,8 @@ const Tools = ({ show, handleClose }) => {
         <Container className="p-3">
           <Row>
             {filteredTools.map((tool) => (
-              <Col key={tool.id} sm={6} md={4} lg={3} className="tool-item">
-                <a href={tool.link} target="_blank" rel="noopener noreferrer">
+              <Col key={tool.id} sm={6} md={4} lg={3} className="tool-item ">
+                <a href={tool.link} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: 'black'}}>
                   <img src={tool.icon} alt={tool.name} className="tool-icon"  width={50}/>
                   <p>{tool.name}</p>
                 </a>
