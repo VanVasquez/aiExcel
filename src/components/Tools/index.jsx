@@ -201,8 +201,8 @@ const Tools = ({ show, handleClose }) => {
   console.log(filteredTools);
   return (
     <Modal show={show} onHide={handleClose}>
-      <Modal.Header closeButton>
-        <Modal.Title>Search Tools</Modal.Title>
+      <Modal.Header  style={{backgroundColor: '#1EBBD7'}}>
+        <Modal.Title style={{color: "white", fontWeight: 800, fontSize: 32}}>Search Tools</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <div className="category-container">
