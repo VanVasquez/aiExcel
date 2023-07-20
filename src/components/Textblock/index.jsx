@@ -126,18 +126,16 @@ const TextBlock = () => {
               <div className="additional-content">
                 <h2>AiExcel Survey</h2>{" "}
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following questions will be
-                  used for general analytical use only.\n� Although your email
-                  address is sent along with your answers, your specific
-                  responses will not be connected to you in any way whatsoever
-                  once posted on the website.� After your results are added into
-                  the final tally, your email address will be deleted from any
-                  records we may have.� Your individual responses will not be
-                  given to any third party whatsoever.� In addition, you will
-                  not be added to any mailing lists as a result of taking this
-                  survey. Only numerical results will be displayed.� Proceeding
-                  to the survey implies that you understand and agree to
-                  provisions in this disclaimer.
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DISCLAIMER: The following
+                  questions will be used for general analytical use only.
+                  Although your educational level is sent along with your
+                  answers, your specific responses will not be connected to you
+                  in any way whatsoever. The data collected during the survey
+                  will be stored securely on our servers. Access to the data
+                  will be limited to authorized personnel only. We will take all
+                  reasonable precautions to protect the information you provide.
+                  After your results are added into the final tally, your
+                  personal info will be deleted from any records we may have.
                 </p>
                 <h2>
                   <a
@@ -148,7 +146,7 @@ const TextBlock = () => {
                     }}
                     onClick={() => {
                       alert(
-                        "The following questions will be used for general analytical use only.\n� Although your email address is sent along with your answers, your specific responses will not be connected to you in any way whatsoever once posted on the website.� After your results are added into the final tally, your email address will be deleted from any records we may have.� Your individual responses will not be given to any third party whatsoever.� In addition, you will not be added to any mailing lists as a result of taking this survey. Only numerical results will be displayed.� Proceeding to the survey implies that you understand and agree to provisions in this disclaimer."
+                        "DISCLAIMER: The following questions will be used for general analytical use only. Although your educational level is sent along with your answers, your specific responses will not be connected to you in any way whatsoever. The data collected during the survey will be stored securely on our servers. Access to the data will be limited to authorized personnel only. We will take all reasonable precautions to protect the information you provide. After your results are added into the final tally, your personal info will be deleted from any records we may have."
                       );
                     }}
                     target="_blank"
