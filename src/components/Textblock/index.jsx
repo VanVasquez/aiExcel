@@ -12,14 +12,14 @@ const TextBlock = () => {
   const tabTitleStyle = {
     color: "#fff",
     fontWeight: 800,
-    fontSize: 32
+    fontSize: 32,
   };
 
   const activeTabTitleStyle = {
     ...tabTitleStyle,
     color: "#1EBBD7",
   };
-  
+
   return (
     <div>
       <div className="content-container" id="about">
@@ -29,17 +29,20 @@ const TextBlock = () => {
             id="uncontrolled-tab"
             className="mb-3"
             fill
-            style={{ backgroundColor: "#1EBBD7" }} 
+            style={{ backgroundColor: "#1EBBD7" }}
             onSelect={(e) => setActiveTab(e)}
           >
-            <Tab 
+            <Tab
               eventKey="home"
               title={
-                <span style={activeTab !== 'home' ? tabTitleStyle : activeTabTitleStyle}>
+                <span
+                  style={
+                    activeTab !== "home" ? tabTitleStyle : activeTabTitleStyle
+                  }
+                >
                   Home
                 </span>
               }
-
             >
               <div className="additional-content">
                 <h2>What is AiExcel?</h2>
@@ -60,9 +63,17 @@ const TextBlock = () => {
               </div>
             </Tab>
             <Tab
-              onSelect={() => setActiveTab('about')}
+              onSelect={() => setActiveTab("about")}
               eventKey="about"
-              title={<span style={activeTab !== 'about' ? tabTitleStyle : activeTabTitleStyle}>About</span>}
+              title={
+                <span
+                  style={
+                    activeTab !== "about" ? tabTitleStyle : activeTabTitleStyle
+                  }
+                >
+                  About
+                </span>
+              }
             >
               <div className="additional-content">
                 <h2>Importance of AI</h2>
@@ -97,6 +108,54 @@ const TextBlock = () => {
                   (WABOT-1 , WABOT-2)
                 </p>
                 <img src={wabot1} alt="Picture of Wambot 1-2" />
+              </div>
+            </Tab>{" "}
+            <Tab
+              onSelect={() => setActiveTab("survey")}
+              eventKey="survey"
+              title={
+                <span
+                  style={
+                    activeTab !== "survey" ? tabTitleStyle : activeTabTitleStyle
+                  }
+                >
+                  Survey
+                </span>
+              }
+            >
+              <div className="additional-content">
+                <h2>AiExcel Survey</h2>{" "}
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following questions will be
+                  used for general analytical use only.\n� Although your email
+                  address is sent along with your answers, your specific
+                  responses will not be connected to you in any way whatsoever
+                  once posted on the website.� After your results are added into
+                  the final tally, your email address will be deleted from any
+                  records we may have.� Your individual responses will not be
+                  given to any third party whatsoever.� In addition, you will
+                  not be added to any mailing lists as a result of taking this
+                  survey. Only numerical results will be displayed.� Proceeding
+                  to the survey implies that you understand and agree to
+                  provisions in this disclaimer.
+                </p>
+                <h2>
+                  <a
+                    href="https://forms.gle/3yk5c4kA7jyGbP1A8"
+                    style={{
+                      color: "white",
+                      fontSize: "50px",
+                    }}
+                    onClick={() => {
+                      alert(
+                        "The following questions will be used for general analytical use only.\n� Although your email address is sent along with your answers, your specific responses will not be connected to you in any way whatsoever once posted on the website.� After your results are added into the final tally, your email address will be deleted from any records we may have.� Your individual responses will not be given to any third party whatsoever.� In addition, you will not be added to any mailing lists as a result of taking this survey. Only numerical results will be displayed.� Proceeding to the survey implies that you understand and agree to provisions in this disclaimer."
+                      );
+                    }}
+                    target="_blank"
+                  >
+                    Link to Survey
+                  </a>
+                </h2>
               </div>
             </Tab>
           </Tabs>

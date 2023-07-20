@@ -1,10 +1,10 @@
-import { useEffect, useState} from 'react';
-import bg from '../../assets/bg.png';
-import fg from '../../assets/fg.png';
-import logo from '../../assets/logo.png';
-import './index.css'
-import { Button } from 'react-bootstrap';
-import Tools from '../Tools';
+import { useEffect, useState } from "react";
+import bg from "../../assets/bg.png";
+import fg from "../../assets/fg.png";
+import logo from "../../assets/logo.png";
+import "./index.css";
+import { Button } from "react-bootstrap";
+import Tools from "../Tools";
 
 const Parallax = () => {
   const [show, setShow] = useState(false);
@@ -15,11 +15,11 @@ const Parallax = () => {
   useEffect(() => {
     const handleScroll = () => {
       const value = window.scrollY;
-      const bgElement = document.getElementById('bg');
-      const logoElement = document.getElementById('logo');
-      const fgElement = document.getElementById('fg');
-      const pursuitElement = document.getElementById('pursuit');
-      const btnElement = document.getElementById('btn');
+      const bgElement = document.getElementById("bg");
+      const logoElement = document.getElementById("logo");
+      const fgElement = document.getElementById("fg");
+      const pursuitElement = document.getElementById("pursuit");
+      const btnElement = document.getElementById("btn");
 
       bgElement.style.width = `${2500 + value * 0.47}px`;
       logoElement.style.top = `${value * 0.43}px`;
@@ -28,22 +28,26 @@ const Parallax = () => {
       btnElement.style.transform = `translate(-50%, ${value}%`;
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  return ( 
+  return (
     <div className="parallax-container">
-      <img src={bg} id="bg"/>
-      <img src={logo} id="logo"/>
-      <h1 className="text" id="pursuit">Excellence</h1>
-      <Button onClick={handleShow} id="btn">EXPLORE</Button>
-      <img src={fg} id="fg"/>
-      <Tools show={show} handleClose={handleClose}/>
+      <img src={bg} id="bg" />
+      <img src={logo} id="logo" />
+      <h1 className="text" id="pursuit">
+        Excellence
+      </h1>
+      <Button onClick={handleShow} id="btn">
+        EXPLORE
+      </Button>
+      <img src={fg} id="fg" />
+      <Tools show={show} handleClose={handleClose} />
     </div>
-  )
-}
+  );
+};
 
-export default Parallax
+export default Parallax;
