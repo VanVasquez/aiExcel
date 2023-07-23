@@ -137,14 +137,14 @@ const TextBlock = () => {
                 <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DISCLAIMER: The following
                   questions will be used for general analytical use only.
-                  Although your educational level is sent along with your
+                  Although your email and educational level is sent along with your
                   answers, your specific responses will not be connected to you
-                  in any way whatsoever.  The data collected during the survey
+                  in any way whatsoever. The data collected during the survey
                   will be stored securely on our servers. Access to the data
                   will be limited to authorized personnel only. We will take all
                   reasonable precautions to protect the information you provide.
                   After your results are added into the final tally, your
-                  personal info will be deleted from any records we may have.
+                  personal information will be deleted from any records we may have.
                 </p>
                 <h2>
                   <a
