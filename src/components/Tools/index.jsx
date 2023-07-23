@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import { Modal, Form } from "react-bootstrap";
-
+import grammarly from "../../assets/grammarly.png";
 import chatgpt from "../../assets/chatgpt.png";
 import deepdreams from "../../assets/deepdreams.png";
 import dalle from "../../assets/dalle.png";
