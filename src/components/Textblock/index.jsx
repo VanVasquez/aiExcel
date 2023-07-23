@@ -45,37 +45,6 @@ const TextBlock = () => {
               }
             >
               <div className="additional-content">
-                <h2>What is AiExcel?</h2>
-                <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AiExcel is a web platform
-                  designed to support students with their academic demands. The
-                  platform features a categorized curated variety of links to
-                  AI-powered tools and resources including natural language
-                  processing tools, and computer vision tools.
-                  <br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The web platform aims to make it
-                  easier for users to discover and access its wide range list of
-                  AI-powered tools available.Thus, ultimately increase the
-                  user's engagement with AI while gratifying their interest to
-                  potentially contribute to the development of AI across
-                  industries in the future.
-                </p>
-              </div>
-            </Tab>
-            <Tab
-              onSelect={() => setActiveTab("about")}
-              eventKey="about"
-              title={
-                <span
-                  style={
-                    activeTab !== "about" ? tabTitleStyle : activeTabTitleStyle
-                  }
-                >
-                  About
-                </span>
-              }
-            >
-              <div className="additional-content">
                 <h2>Importance of AI</h2>
                 <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Artificial intelligence (AI)
@@ -108,6 +77,46 @@ const TextBlock = () => {
                   (WABOT-1 , WABOT-2)
                 </p>
                 <img src={wabot1} alt="Picture of Wambot 1-2" />
+              </div>
+            </Tab>
+            <Tab
+              onSelect={() => setActiveTab("about")}
+              eventKey="about"
+              title={
+                <span
+                  style={
+                    activeTab !== "about" ? tabTitleStyle : activeTabTitleStyle
+                  }
+                >
+                  About
+                </span>
+              }
+            >
+              <div className="additional-content">
+                <h2>What is AiExcel?</h2>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AiExcel is a web platform
+                  designed to support students with their academic demands. The
+                  platform features a categorized curated variety of links to
+                  AI-powered tools and resources including natural language
+                  processing tools, and computer vision tools.
+                  <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The web platform aims to make it
+                  easier for users to discover and access its wide range list of
+                  AI-powered tools available.Thus, ultimately increase the
+                  user's engagement with AI while gratifying their interest to
+                  potentially contribute to the development of AI across
+                  industries in the future.
+                </p>
+                <h2>Mission & Vision</h2>
+                <p> 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mission: At AiExcel, our mission is to empower students in their academic journey by providing easy access to a diverse collection of AI-powered tools and resources. We aim to support students in their academic demands through a curated platform that offers a categorized variety of links to cutting-edge AI softwares, including natural language processing tools and computer vision tools. By offering these resources, we strive to enhance the learning experience and help students excel in their studies.
+                </p>  
+                  <br/>
+                <p>   
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vision: Our vision at AiExcel is to create a dynamic web platform that fosters a seamless discovery and accessibility of AI-powered tools for students. We envision a future where students can effortlessly tap into the potential of AI, gaining valuable insights and leveraging innovative technologies to excel in their academic pursuits.
+                </p>
+
               </div>
             </Tab>{" "}
             <Tab
