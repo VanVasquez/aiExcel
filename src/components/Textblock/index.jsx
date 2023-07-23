@@ -130,7 +130,7 @@ const TextBlock = () => {
                   questions will be used for general analytical use only.
                   Although your educational level is sent along with your
                   answers, your specific responses will not be connected to you
-                  in any way whatsoever. The data collected during the survey
+                  in any way whatsoever.  The data collected during the survey
                   will be stored securely on our servers. Access to the data
                   will be limited to authorized personnel only. We will take all
                   reasonable precautions to protect the information you provide.
