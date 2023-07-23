@@ -93,7 +93,7 @@ const TextBlock = () => {
               }
             >
               <div className="additional-content">
-                <h2>What is AiExcel?</h2>
+                <h2>Purpose of AiExcel</h2>
                 <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AiExcel is a web platform
                   designed to support students with their academic demands. The
@@ -110,13 +110,16 @@ const TextBlock = () => {
                 </p>
                 <h2>Mission & Vision</h2>
                 <p> 
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mission: At AiExcel, our mission is to empower students in their academic journey by providing easy access to a diverse collection of AI-powered tools and resources. We aim to support students in their academic demands through a curated platform that offers a categorized variety of links to cutting-edge AI softwares, including natural language processing tools and computer vision tools. By offering these resources, we strive to enhance the learning experience and help students excel in their studies.
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mission: At AiExcel, our mission is to empower students in their academic journey by providing easy access to a diverse collection of AI-powered tools and resources. We aim to support students in their academic demands through a curated platform that offers a categorized variety of links to cutting-edge AI softwares, including natural language processing tools and computer vision tools. 
                 </p>  
                   <br/>
                 <p>   
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vision: Our vision at AiExcel is to create a dynamic web platform that fosters a seamless discovery and accessibility of AI-powered tools for students. We envision a future where students can effortlessly tap into the potential of AI, gaining valuable insights and leveraging innovative technologies to excel in their academic pursuits.
                 </p>
-
+                <h2>Team Information</h2>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AiExcel was founded by Computer Science students of ICCT Colleges, an AI enthusiastic team with a strong commitment to revolutionizing the way students interact with artificial intelligence. At AiExcel, our team is composed of passionate individuals from diverse backgrounds, all driven by a common goal of supporting students and advancing the accessibility of AI technologies in education. Our team members bring together a unique blend of expertise in collaboration, web development, education, and user experience design. We work collaboratively to ensure that AiExcel provides the best possible resources and user experience for our valued visitors.
+                </p>
               </div>
             </Tab>{" "}
             <Tab
@@ -140,7 +143,7 @@ const TextBlock = () => {
                   Although your email and educational level is sent along with your
                   answers, your specific responses will not be connected to you
                   in any way whatsoever. The data collected during the survey
-                  will be stored securely on our servers. Access to the data
+                  will be stored securely on our google forms. Access to the data
                   will be limited to authorized personnel only. We will take all
                   reasonable precautions to protect the information you provide.
                   After your results are added into the final tally, your
