@@ -55,7 +55,7 @@ const TextBlock = () => {
                   <br />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The web platform aims to make it
                   easier for users to discover and access its wide range list of
-                  AI-powered tools available. Thus, ultimately increase the
+                  AI-powered tools available.Thus, ultimately increase the
                   user's engagement with AI while gratifying their interest to
                   potentially contribute to the development of AI across
                   industries in the future.
