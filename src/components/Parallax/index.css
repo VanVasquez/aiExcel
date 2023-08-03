@@ -42,10 +42,10 @@
   left: 50%;
   padding: 8px 30px;
   border-radius: 50px;
-  background: #fff;
+  background: #1ba8c1;
   color: #1ba8c1;
   font-size: 1.9em;
   font-weight: 900;
-  border: solid 10px #1ba8c1;
+  border: solid 10px #fff;
   text-decoration: underline;
 }
