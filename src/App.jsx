@@ -20,8 +20,10 @@ function LandingPage() {
       <div 
         style={{ position: "fixed", bottom: "20px", right: "20px" }}
       >
-        <button onClick={() => scrollToTop()} className="btn btn-light" style={{color: '#1EBBD7', fontWeight: 900, fontSize: 24}}>
+        <button onClick={() => scrollToTop()} className="btn btn-light" style={{color: '#1EBBD7', fontWeight: 900, fontSize: 24, }}>
+          <u>
           BACK TO TOP ▲
+          </u>
         </button>
       </div>
     </div>
