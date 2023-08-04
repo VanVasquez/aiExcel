@@ -19,7 +19,6 @@ const TextBlock = () => {
     ...tabTitleStyle,
     color: "#1EBBD7",
   };
-X
   return (
     <div>
       <div className="content-container" id="about">
